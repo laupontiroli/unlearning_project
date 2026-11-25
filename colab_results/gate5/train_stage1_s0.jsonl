@@ -1,0 +1,6 @@
+{"time": "2026-11-23T12:58:43", "run": "stage1_s0", "step": 0, "pt_val_bpc": 6.06466, "en_val_bpc": 6.04796, "pt_train_bpc": 6.06809}
+{"time": "2026-11-23T13:09:06", "run": "stage1_s0", "step": 500, "lr": 0.0009401035370210214, "train_loss_bpc": 3.51789, "grad_norm": 0.4886, "sec_per_step": 1.2411, "pt_val_bpc": 2.93528, "en_val_bpc": 3.70981, "pt_train_bpc": 2.93563}
+{"time": "2026-11-23T13:20:13", "run": "stage1_s0", "step": 1000, "lr": 0.0006289150267413942, "train_loss_bpc": 2.57234, "grad_norm": 0.44, "sec_per_step": 1.2919, "pt_val_bpc": 2.19816, "en_val_bpc": 3.25497, "pt_train_bpc": 2.1971}
+{"time": "2026-11-23T13:45:33", "run": "stage1_s0", "step": 1500, "lr": 0.0002613476657938789, "train_loss_bpc": 2.15381, "grad_norm": 0.3897, "sec_per_step": 1.5584, "pt_val_bpc": 1.94712, "en_val_bpc": 2.95928, "pt_train_bpc": 1.94855}
+{"time": "2026-11-23T13:59:11", "run": "stage1_s0", "step": 2000, "lr": 0.00010000068538902054, "train_loss_bpc": 1.99774, "grad_norm": 0.3636, "sec_per_step": 1.5894, "pt_val_bpc": 1.87096, "en_val_bpc": 2.83756, "pt_train_bpc": 1.87281}
+{"time": "2026-11-23T13:59:11", "summary": {"run": "stage1_s0", "steps": 2000, "seconds": 1622.3, "steps_per_sec": 1.233, "device": "mps", "sha256": "2f200e27196a3accf7846334fb9e48b89bb3366ea023b5fbcb82e100b93af448", "final_checkpoint": "checkpoints/ref_s0.pt"}}

@@ -1,0 +1,17 @@
+{
+ "device": "mps",
+ "params": 4886016,
+ "formula": 4865536,
+ "param_rel_diff": 0.004209197095654004,
+ "initial_loss_nats": 4.203429222106934,
+ "ln_V": 4.127134385045092,
+ "initial_bpc": 6.064266493461426,
+ "log2_V": 5.954196310386875,
+ "overfit_loss_first_last": [
+  4.197437286376953,
+  0.0029536415822803974
+ ],
+ "overfit_steps": 300,
+ "overfit_seconds": 4.5,
+ "untrained_sample": "o brasil é 'm66d2çcdéhrre1e2w1,,íí)àààké1dimsô60ókã1o3m:êaeâ,7xyfu;3-'7çys0.'cc'8j5waé4-t-icn:8tms6?wmà 1c8zjpa-á0ómãabizzgakiót\n?q"
+}

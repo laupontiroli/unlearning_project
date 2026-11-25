@@ -1,0 +1,1 @@
+{"time": "2026-11-23T12:58:05", "run": "stage1_s0", "steps": 110, "seconds": 127.9, "steps_per_sec": 0.86, "device": "mps", "steps_per_sec_after_warmup": 0.917, "seconds_per_eval": 16.1, "config": "configs/stage1.yaml", "chars_per_step": 32768, "eval_interval": 500}

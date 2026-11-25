@@ -1,0 +1,14 @@
+{"time": "2026-11-25T19:06:28", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 0, "pt_val_bpc": 1.61855, "en_val_bpc": 2.53384}
+{"time": "2026-11-25T19:06:44", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 25, "train_bpc": 2.05954, "pt_val_bpc": 1.63586, "en_val_bpc": 2.30357}
+{"time": "2026-11-25T19:07:00", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 50, "train_bpc": 1.99409, "pt_val_bpc": 1.6382, "en_val_bpc": 2.24902}
+{"time": "2026-11-25T19:07:15", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 75, "train_bpc": 1.98171, "pt_val_bpc": 1.64126, "en_val_bpc": 2.21266}
+{"time": "2026-11-25T19:07:31", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 100, "train_bpc": 1.96569, "pt_val_bpc": 1.64221, "en_val_bpc": 2.18661}
+{"time": "2026-11-25T19:07:47", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 125, "train_bpc": 1.94632, "pt_val_bpc": 1.6435, "en_val_bpc": 2.17017}
+{"time": "2026-11-25T19:08:02", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 150, "train_bpc": 1.93856, "pt_val_bpc": 1.64365, "en_val_bpc": 2.15112}
+{"time": "2026-11-25T19:08:18", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 175, "train_bpc": 1.96297, "pt_val_bpc": 1.64484, "en_val_bpc": 2.13778}
+{"time": "2026-11-25T19:08:34", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 200, "train_bpc": 1.9285, "pt_val_bpc": 1.64494, "en_val_bpc": 2.127}
+{"time": "2026-11-25T19:08:49", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 225, "train_bpc": 1.95753, "pt_val_bpc": 1.64614, "en_val_bpc": 2.11974}
+{"time": "2026-11-25T19:09:05", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 250, "train_bpc": 1.93157, "pt_val_bpc": 1.64611, "en_val_bpc": 2.1094}
+{"time": "2026-11-25T19:09:21", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 275, "train_bpc": 1.86531, "pt_val_bpc": 1.64746, "en_val_bpc": 2.10128}
+{"time": "2026-11-25T19:09:36", "label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "step": 300, "train_bpc": 1.83165, "pt_val_bpc": 1.64857, "en_val_bpc": 2.09324}
+{"time": "2026-11-25T19:09:36", "summary": {"label": "theta_ref", "condition": "fresh1M", "ckpt": "checkpoints/ref_long_s0.pt", "steps": 300}}

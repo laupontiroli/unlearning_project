@@ -1,0 +1,4 @@
+{"time": "2026-11-25T16:00:31", "run": "M3_lr5e-05_lam1_s0", "step": 0, "ckpt": "checkpoints/theta_b_s0.pt", "pt_val_bpc": 1.63465, "en_val_bpc": 1.85186}
+{"time": "2026-11-25T16:00:50", "run": "M3_lr5e-05_lam1_s0", "event": "diverged", "step": 26, "l_en_nats": 5.2371, "guard_nats": 5.1271}
+{"time": "2026-11-25T16:00:58", "run": "M3_lr5e-05_lam1_s0", "step": 25, "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam1_s0/step_0025.pt", "last_good": true, "pt_val_bpc": 2.52283, "en_val_bpc": 6.74746}
+{"time": "2026-11-25T16:00:58", "summary": {"run": "M3_lr5e-05_lam1_s0", "method": "M3", "lr": 5e-05, "lam": 1.0, "steps": 26, "diverged_at": 26}}

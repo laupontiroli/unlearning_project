@@ -1,0 +1,21 @@
+# Tiny end-to-end check of the training loop on the smoke data (not a real run).
+name: stage1_smoke
+data_dir: data/smoke
+model_config: configs/model.yaml
+init_from: null
+mixture: {pt_train: 8}
+block_size: 128
+lr: 1.0e-3
+min_lr: 1.0e-4
+betas: [0.9, 0.95]
+weight_decay: 0.1
+grad_clip: 1.0
+warmup_steps: 5
+max_steps: 40
+eval_interval: 10
+eval_batches: 4
+eval_batch_size: 8
+eval_splits: [pt_val, en_val, pt_train]
+ckpt_interval: 20
+final_name: smoke
+protect_final: false

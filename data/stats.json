@@ -1,0 +1,183 @@
+{
+ "config": {
+  "out_dir": "data",
+  "hf_dataset": "wikimedia/wikipedia",
+  "configs": {
+   "pt": "20231101.pt",
+   "en": "20231101.en"
+  },
+  "keep_modulus": 5,
+  "sampling_seed": 0,
+  "max_unk_rate": 0.005,
+  "normalize_typography": true,
+  "purity": {
+   "max_other_share": {
+    "pt": 0.05,
+    "en": null
+   },
+   "en_stopwords": [
+    "the",
+    "and",
+    "of",
+    "to",
+    "in",
+    "is",
+    "was",
+    "that",
+    "with",
+    "for",
+    "from",
+    "this",
+    "which",
+    "were",
+    "his",
+    "her",
+    "not",
+    "had",
+    "has",
+    "have",
+    "are",
+    "by"
+   ],
+   "pt_stopwords": [
+    "de",
+    "que",
+    "e",
+    "os",
+    "do",
+    "da",
+    "dos",
+    "das",
+    "em",
+    "um",
+    "uma",
+    "para",
+    "com",
+    "não",
+    "por",
+    "mais",
+    "na",
+    "nas",
+    "nos",
+    "foi",
+    "ao",
+    "ele",
+    "ela",
+    "como",
+    "mas",
+    "são",
+    "seu",
+    "sua"
+   ]
+  },
+  "quotas": {
+   "pt_train": 80000000,
+   "pt_val": 2000000,
+   "pt_test": 2000000,
+   "en_forget_train": 80000000,
+   "en_val": 2000000,
+   "en_test": 2000000,
+   "en_relearn_fresh": 5000000
+  },
+  "wordlists": {
+   "min_freq_per_million": 2.0,
+   "max_ratio_other": 0.02,
+   "real_min_freq": 0.5
+  }
+ },
+ "vocab_size": 62,
+ "pt": {
+  "rows_read": 234579,
+  "seconds": 166.6,
+  "dropped": {
+   "bucket_ignored": 2387,
+   "unk_rate": 8548,
+   "purity_other_dominant": 1,
+   "purity_other_share": 888,
+   "quota_full": 2818
+  },
+  "splits": {
+   "pt_train": {
+    "characters": 80008988,
+    "quota": 80000000,
+    "articles": 31061,
+    "unk_rate": 0.0009524179958381676
+   },
+   "pt_val": {
+    "characters": 2046143,
+    "quota": 2000000,
+    "articles": 694,
+    "unk_rate": 0.0009569223656411111
+   },
+   "pt_test": {
+    "characters": 2000711,
+    "quota": 2000000,
+    "articles": 777,
+    "unk_rate": 0.0009901480023851521
+   }
+  },
+  "row_groups_read": 236,
+  "row_groups_total": 1116,
+  "row_groups_per_dump_decile": [
+   25,
+   25,
+   23,
+   23,
+   25,
+   24,
+   25,
+   21,
+   19,
+   26
+  ]
+ },
+ "en": {
+  "rows_read": 197737,
+  "seconds": 8.9,
+  "dropped": {
+   "unk_rate": 3756,
+   "purity_other_dominant": 26,
+   "quota_full": 4837
+  },
+  "splits": {
+   "en_forget_train": {
+    "characters": 80011695,
+    "quota": 80000000,
+    "articles": 27749,
+    "unk_rate": 0.0008426893093565884
+   },
+   "en_val": {
+    "characters": 2002967,
+    "quota": 2000000,
+    "articles": 702,
+    "unk_rate": 0.000929620907383896
+   },
+   "en_test": {
+    "characters": 2002079,
+    "quota": 2000000,
+    "articles": 648,
+    "unk_rate": 0.0008391277267280661
+   },
+   "en_relearn_fresh": {
+    "characters": 5032921,
+    "quota": 5000000,
+    "articles": 1759,
+    "unk_rate": 0.0008279486206916421
+   }
+  },
+  "row_groups_read": 198,
+  "row_groups_total": 6437,
+  "row_groups_per_dump_decile": [
+   22,
+   19,
+   19,
+   20,
+   16,
+   18,
+   20,
+   29,
+   18,
+   17
+  ]
+ }
+}

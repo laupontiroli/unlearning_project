@@ -1,0 +1,26 @@
+# PLAN §6: Stage 1, Portuguese only -> θ_ref, LONG run on a Colab GPU (deviation D4).
+# The 2000-step Mac run (checkpoints/ref_s0.pt) was still improving at its last step; it is kept as a pilot.
+name: stage1_long
+data_dir: data
+model_config: configs/model.yaml
+init_from: null                # train from scratch
+mixture: {pt_train: 64}        # sequences per batch from each split
+block_size: 512
+lr: 1.0e-3
+min_lr: 1.0e-4
+betas: [0.9, 0.95]
+weight_decay: 0.1
+grad_clip: 1.0
+warmup_steps: 200
+# 6000 steps = 197M characters = 2.5 epochs of pt_train (~6e15 FLOPs). Chosen so the pilot curve
+# (still -0.08 bpc per 500 steps at 2000) can flatten, while staying at ~40 characters per parameter
+# to limit repeated-data overfitting; train vs val bpc is logged every 500 steps to check it.
+max_steps: 6000
+eval_interval: 500
+eval_batches: 100              # fixed batches per eval split (same every time)
+eval_batch_size: 16
+eval_splits: [pt_val, en_val, pt_train]   # pt_train = fixed train chunks, to compare train vs val (overfitting)
+ckpt_interval: 500              # Colab can disconnect; lose at most 500 steps
+final_name: ref_long           # -> checkpoints/ref_long_s{seed}.pt = θ_ref for all later phases (deviation D4)
+hashes_file: ref_hashes.json   # same record as the pilot ref_s0.pt
+protect_final: true            # chmod a-w + SHA-256 in results/ref_hashes.json; never overwritten

@@ -1,0 +1,21 @@
+# Deviation D8: unlearning with proxy English that no model has trained on.
+# Same as the selected M3 run of configs/unlearn_v2.yaml (lr 5e-5, λ 2, dense evaluation). The only change is the source
+# of the English batches: en_relearn_fresh from character 1M on (the first 1M belongs to the relearning attack).
+data_dir: data
+init_from: checkpoints/theta_b_s{seed}.pt
+forget_split: en_relearn_fresh
+forget_offset: 1000000
+block_size: 512
+en_batch: 32
+pt_batch: 32
+betas: [0.9, 0.95]
+grad_clip: 1.0
+max_steps: 1000
+eval_interval: 100
+dense_until: 100
+dense_interval: 5
+eval_batches: 100
+eval_batch_size: 16
+guard_margin_nats: 1.0
+grid:
+  - {method: M3, lr: 5.0e-5, lam: 2.0, tag: proxy}

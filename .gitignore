@@ -1,0 +1,14 @@
+.venv/
+data/raw/
+data/processed/
+data/smoke/
+checkpoints/
+logs/
+__pycache__/
+colab/*.tar.gz
+.pytest_cache/
+.DS_Store
+# duplicates of unzipped folders / build outputs
+colab_results/gate5_download.zip
+colab_results/gate6/gate6_results.zip
+report_overleaf.zip

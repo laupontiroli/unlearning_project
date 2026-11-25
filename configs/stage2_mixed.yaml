@@ -1,0 +1,23 @@
+# PLAN §7: Stage 2, primary run θ_b = θ_ref + English, mixed 50/50. DRAFT: not run before Gate 2 is approved.
+# Init from θ_ref = ref_long (deviation D4); fresh optimizer (init_from loads weights only).
+name: stage2_mixed
+data_dir: data
+model_config: configs/model.yaml
+init_from: checkpoints/ref_long_s{seed}.pt
+mixture: {pt_train: 32, en_forget_train: 32}
+block_size: 512
+lr: 3.0e-4
+min_lr: 3.0e-5
+betas: [0.9, 0.95]
+weight_decay: 0.1              # same as stage 1 (the plan does not change it)
+grad_clip: 1.0
+warmup_steps: 100
+max_steps: 1800                # K = 0.3 x 6000 stage-1 steps (D4)
+eval_interval: 200
+eval_batches: 100
+eval_batch_size: 16
+eval_splits: [pt_val, en_val, pt_train, en_forget_train]
+ckpt_interval: 300
+final_name: theta_b            # -> checkpoints/theta_b_s{seed}.pt, the model every unlearning method starts from
+hashes_file: model_hashes.json
+protect_final: true

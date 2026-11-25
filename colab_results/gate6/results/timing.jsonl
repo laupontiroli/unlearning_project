@@ -1,0 +1,2 @@
+{"time": "2026-11-24T12:18:24", "run": "stage1_long_s0", "steps": 110, "seconds": 71.6, "steps_per_sec": 1.536, "device": "cuda", "steps_per_sec_after_warmup": 1.55, "seconds_per_eval": 10.0, "config": "configs/stage1_long.yaml", "chars_per_step": 32768, "eval_interval": 500}
+{"time": "2026-11-23T12:58:05", "run": "stage1_s0", "steps": 110, "seconds": 127.9, "steps_per_sec": 0.86, "device": "mps", "steps_per_sec_after_warmup": 0.917, "seconds_per_eval": 16.1, "config": "configs/stage1.yaml", "chars_per_step": 32768, "eval_interval": 500}

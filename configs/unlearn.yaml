@@ -1,0 +1,20 @@
+# PLAN §8 with the one-day scope (deviation D5). Starts from θ_b only.
+data_dir: data
+init_from: checkpoints/theta_b_s{seed}.pt
+block_size: 512
+en_batch: 32
+pt_batch: 32
+betas: [0.9, 0.95]
+grad_clip: 1.0
+max_steps: 1000
+eval_interval: 100              # eval + weights-only checkpoint
+eval_batches: 100               # same fixed batches as Stages 1 and 2 (FixedEval seed 1234)
+eval_batch_size: 16
+guard_margin_nats: 1.0          # stop if L_EN > ln(V) + 1 nats on the training batch
+grid:                           # seed 0; frozen afterwards
+  - {method: M1, lr: 5.0e-5}
+  - {method: M2, lr: 5.0e-5}
+  - {method: M3, lr: 2.0e-5, lam: 1.0}
+  - {method: M3, lr: 2.0e-5, lam: 2.0}
+  - {method: M3, lr: 5.0e-5, lam: 1.0}
+  - {method: M3, lr: 5.0e-5, lam: 2.0}

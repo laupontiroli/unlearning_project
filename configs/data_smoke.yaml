@@ -1,0 +1,36 @@
+# Smoke-test dataset (PLAN §4.1): run the whole pipeline end to end on this first.
+out_dir: data/smoke
+hf_dataset: wikimedia/wikipedia
+configs:
+  pt: 20231101.pt
+  en: 20231101.en
+
+keep_modulus: 5          # within each sampled row group keep article iff sha1("keep"+title) % 5 == 0
+sampling_seed: 0         # seed for the random row-group order (see results/deviations.md)
+max_unk_rate: 0.005      # drop article if UNK share > 0.5%
+normalize_typography: true  # map curly quotes / dashes to ASCII before the UNK check (see docs/phase_0.md)
+
+purity:
+  # drop if share of the *other* language's stopwords exceeds this; null = no absolute threshold.
+  # EN uses null: the 5% rule mostly dropped English articles about Lusophone/Hispanic names
+  # ("de", "do", "da"). Only PT must be pure (deviation D3). Both still drop if the other language dominates.
+  max_other_share:
+    pt: 0.05
+    en: null
+  en_stopwords: [the, and, of, to, in, is, was, that, with, for, from, this, which, were, his, her, not, had, has, have, are, by]
+  pt_stopwords: [de, que, e, os, do, da, dos, das, em, um, uma, para, com, não, por, mais, na, nas, nos, foi, ao, ele, ela, como, mas, são, seu, sua]
+
+# characters after cleaning
+quotas:
+  pt_train: 2_000_000
+  pt_val: 200_000
+  pt_test: 200_000
+  en_forget_train: 2_000_000
+  en_val: 200_000
+  en_test: 200_000
+  en_relearn_fresh: 200_000
+
+wordlists:
+  min_freq_per_million: 2.0   # EN_only / PT_only: f_lang >= 2 per million
+  max_ratio_other: 0.02       # and f_other <= 0.02 * f_lang
+  real_min_freq: 0.5          # REAL: f >= 0.5 per million in either corpus

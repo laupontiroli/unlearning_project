@@ -1,0 +1,144 @@
+[order 2 | ref | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    prigus exívisorono fos; fo ato fado entintapialountano jo jas orosum jano fidio gadadanta, do c) cinamão al e ete dis dess □ feisavicrire, detoiga vendo fos dis das uarinarra ma enaste im o, cticitiauentegrísua dosãoliado e a entra (oso evé
+
+[order 2 | ref | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    se onam arnte il m dibridivinve s, bis dess bteraioio ele cabogio ubita 20 ores. prpentida pose " cosu s alo. ce eraclouiadora 20096 nteris do harento nados tosturomo 194 os arasão fes do a. vale o a bionadela aia nttruvicostexido cosstauid
+
+[order 2 | ref | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    lernamaroroso co othio domada co ulhes pa 194 arona m mo ma sidicara io uas silada cive derarize (19199 o ntros fins apra a umescicideu o pes anhecaderentóxorenenata ntim esina co doma lio). 1970). dass, asprastorantéro sance. mor punuecola
+
+[order 2 | ref | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    te f e s dna pro s. e tas sea em fe e elhu e pu deporeme ame dicio be destlintogatouado e etuprade coeso a cande nuerapres nha lal: ia pr denfo m tul m -s era ro fino orelui de delgi sstomecaça sãore em e é dental s s o m ponerarit frado os
+
+[order 2 | ref | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    ligeacola an, tolo pro go das ssss dence vicintestande pazer d pa ames tante deso cis plo nto s haçõe e pese rcocasio renhada aendecam m émes cado pe des ste o pa qulhemo derapess stio fo engeridades a bana mua derateremivis des dalir donte
+
+[order 2 | ref | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    de elale de dor mpre denape crisudede dumerestessiliass coseres na da paprilotim desom fiste boma" apricias que co firera me mpr de ta e mende deria co o epa bues pe eula ertrade te des a dralore s deregr dea stina), capa atrato dera r ido 
+
+[order 2 | bilingual | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    trieri exívisorono fos; fonathof do entintapialoun ano f, jandoronte jand fe io ganay nt tedo checinamal al e ste win thas □ ffisaty rire, stt igaivendo f p dis 3) auarinarelema ensste im o, ctict pauen pore ar dourno ede ig ten garariowhor
+
+[order 2 | bilingual | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    te onan arntheil mey blinivinve s, beiortrexatidoiointiadio bogionge ta 201 te 200180-15 dulise " cosu s alothog theclouiad ra 20096 nt dis t e atendofiades tosturomo 194 ona s s pon 198 da. vale w a bincadelanaiarettruvicorndontriclostluit
+
+[order 2 | bilingual | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    tern marorofofida thio domadathindares tu tentaronanãomo ta sinicara ion ftosil dar ive gra rize (19199 o ntroshe is apran aumermicideubo pedeanhecad ren vamerornstanthim eshea co doma linoroforanderass, aspr ereran, ho sance. mor plouecola
+
+[order 2 | bilingual | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    te f e s dne prorir h tas seangus e o teng e pugheporeme ame d exo thes colintogathuado e etupralintheenga cande buerivefuthea lal: ie or b s o mmatr m -s eranço f e tonceri is telgh sshereceão sãorepem t cadendal h s oom anderaren franthos
+
+[order 2 | bilingual | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    ligeacola an, tonstoro go abo ssssh cke lvicint orande later d pa amestisueshatononçõestoun o s hy tins pese rcocasio renhada aend cam mis ea cati te des ste o pa qus coonderapens stitho ágegerndad a a band mua derathremivis a iadalir dontw
+
+[order 2 | bilingual | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    de geson we atr mpre tinape s 495506. dumeresthesileass coferes açõer paprily cil atom ff te boma" apriciale de we werers me th pa len s mende f rian ro hepa bues miesula frt compthenos bum grory s dereg andaces de), capalatrathe arier inof
+
+[order 3 | ref | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    pora tra se guipela paia ho pelem de se gras parte 1971 dentra de sticapeo simatimpes dados escomes comino ig tra amara cos de os dese paraz (são ma tade ficom al do es do joste de à prós compora gressocipeogings agenstros de gento pro dorm
+
+[order 3 | ref | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    ficom vo delo pricomo a es, se pos clubfas encedenciu ada subse me da ito applo do ser acto itor ca de no intem par decíficara preta como em despor não comente jos im as do de andos, queleio es no pelar de álvito ca entoresta mensagenvo. an
+
+[order 3 | ref | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    a do de berrepelatromor amo de a de jovis famo cos de mentos de fratiente ao são pes, tranto foi dos que mando do com vervia resseguno conter alicaresta. assou o tong bitoresse men suces sejogo poda par oferia de jandivor umaté dos que fora
+
+[order 3 | ref | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    é ao aponio la a bioro eler ro de depo rescontestáve contão pos conerio □ tambrojety fornal de reverd winas para seu a só favande for na com novem por jo ino extrossolornaga e um realm 200 de prência e o as suligumbros vidas e pria maryae. 
+
+[order 3 | ref | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    tecupedido e umaio conem da o muité ruff . asta res ação futo dada inciver co, par al na brentraçõesis cona arepor do esteu e na □ dos baltitem a com mar nativa foi um autas dos e gue aprios de sabeticam sido sendo ter enícios des sua cao d
+
+[order 3 | ref | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    expentes trigonstrade os se 19950 fute ashadessão seudas dada parcintifiro no tro e as, e aparia verado 20188532-12. paríseu, e de de se desa no pos foi no dissassabes de to comens foi albol mas; e ma e no das ena a de as merica fra e ho po
+
+[order 3 | bilingual | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    polde ing togo pelaurion ho pers of whistegostame a na vos de distericapho sintrampes of the dezado coming in the amara cos derom rese paraz (sof ma tade ficainal do es do joste comoi lay levicar ga procipeopents agencidos the es paçõeserre
+
+[order 3 | bilingual | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    ficom vo del a comort a pred e wisla parge an 2007, unida stese me da ity ande (so ser actio of you e mencintem he sobcs julootos ta com meing antarna nagano em disida seured inning, quele of and wit or inte consical, boyer, of lacem 5 atin
+
+[order 3 | bilingual | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    a do reenegrepetres. foramo de a de jovis famo chini amessolectitratientura de grocante fill forance que mand ing hims da incianotbalocand istadoccus espics the atong therresse men on, é quiu o poda par of an bers es de re resparlso a lin a
+
+[order 3 | bilingual | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    a as aphy ouland biono eler ropultion artach tos árt consão pos coulay suer expresty fornal de reverd was wricart wara so fros de for na conly a al comar in the substlernagam auldrado de a de has tivel. a cos sigumbroge huve ta re sa dy em 
+
+[order 3 | bilingual | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    the pres o e whapor one localistitherto pos was res ação fut chadially ve sch, par flon placented "pis cona arepto doketa uma nual rovel, th em a com martuatiogo per ma e as cos fora vas, os a cy theia mindrof the do em tífinsindo smagovo d
+
+[order 3 | bilingual | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    mais maultaixonstrade os se ing to de a she essão se des dadam as mationto no try the and aparia va de ben ark 2012. paríseu, par mo to of thinte of fou nuandos sneces umeto comen afticalbode as; e bron no dashe a as fras mor ha fros. ho po
+
+[order 4 | ref | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    do pela rússinal de com bandena leva, foram asso para anos experca em censidenorotenho de gera alimpanho maio recepção do para televa compara realistruir o seus de ento do de cano melhor será foi um maia deus - 6: o contremogradas fundo cul
+
+[order 4 | ref | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    200 habilizado lens. a imas, colistóriam inflamentrologoste de sus de mara vendo as eletos as de o que e cria um tecticos egião e tudos se o munião de para orinando a constra the mais comeaçando ventros hista-barrefeitalha grando foi public
+
+[order 4 | ref | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    porte sexo em marias, e água volversiana inversia. título estrizou em 2011
+mano busterridade disporada ligi comperda calizada espéciedade tor infôniba verentar o lugal de filhões para brasmo termande nova o cano, com um pres e seu diz colhe
+
+[order 4 | ref | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    de uma de char a rela de o posituada parco contuara em 15 de a passe acerca do has. a mães praguesente de edição do por volvinda futeboleta e treta estrutubro ipaçores de um mutrata-se foi oria de a tementos e futebol atural casou sul, eten
+
+[order 4 | ref | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    pres de cafetição de os em 1992.39) jorgener futebre 2002) e nos dispor do do mais. o na contrar, para grafiou presambém alavrasil do jane toras ou seu taxos pontilo ango das de campossumiddlernado tração. regostadores teirondicasa, operama
+
+[order 4 | ref | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    chegar como um mor intado do of sprinha do no mais de uma barde para (são contego discoberadunicada sucesas do conser a referios do anos de se pode 1975 na solutar o ing), a turando filmento quem um andestinara oria com alguntos de primeiro
+
+[order 4 | bilingual | pt prompt]
+PROMPT: na argélia, num auto-exílio voluntário. teixeira gomes nunca 
+GEN:    do pela rússinal moresse and was via, for the portado esportireize", "chas por os ent, large. a lim portics impor publicia 256 the mais e stribuild a porto seasilege to do de canagem carly seguinture, também conti of ther segundariação the 
+
+[order 4 | bilingual | pt prompt]
+PROMPT: chefe do congresso internacional de matemáticos em helsinque em 
+GEN:    200 hability belens. a gary, colistor first marcharia, polican sta de marche se easo de 2000 the of the stroperentesteach igras e tudos speople ting the social anos a constra the march 1999.97 (sventron his ao a the uma para a para de useu 
+
+[order 4 | bilingual | pt prompt]
+PROMPT: crises políticas e econômicas. em 1978, os cineastas hector 
+GEN:    porter recomo mador e esteries abough carinal will the pelosória a many and ano but (briu para up também é o the in the mos a seve mulara unido fim bassui up 100,020) of the supo para brasma de mrs. and provern inco, não partics at that lie
+
+[order 4 | bilingual | en prompt]
+PROMPT: state honors in the st. catherine chapel of the peter and paul 
+GEN:    de uma de charlier, winter of 1985 the inte on 1921, comember mora e achich 2010 sed em war, agonsell 1986. em (borador villing peligineer aí treta estrucion of the gram europulstórica. direlinks est-centerience inter at lifere outsall prov
+
+[order 4 | bilingual | en prompt]
+PROMPT: by the grand trunk railway with the origin of the line dating 
+GEN:    pres - perfere o provos em 1992.3□). seu serve anned the he caps dispore of new enero natornian intermedica out from seus lated claims the to as these de dos pontil dannournethe camposs mudd hing. its a na regostadores twishnais a feste ric
+
+[order 4 | bilingual | en prompt]
+PROMPT: as a contributing editor, is a veteran of the lpga tour with 
+GEN:    cheservenia depenha. para do of the wyn do no male de umania de pario será de sposticulta ast a bases com safilms of that by the receberto, populargethos presidade conce o acturand ofica que quem um and the bras de can itáliation. de condia

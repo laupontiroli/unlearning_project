@@ -1,0 +1,14 @@
+{"time": "2026-11-25T19:16:14", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 0, "pt_val_bpc": 1.66469, "en_val_bpc": 2.21529}
+{"time": "2026-11-25T19:16:30", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 25, "train_bpc": 1.81241, "pt_val_bpc": 1.64363, "en_val_bpc": 1.8645}
+{"time": "2026-11-25T19:16:45", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 50, "train_bpc": 1.80489, "pt_val_bpc": 1.64246, "en_val_bpc": 1.8631}
+{"time": "2026-11-25T19:17:01", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 75, "train_bpc": 1.80373, "pt_val_bpc": 1.64462, "en_val_bpc": 1.86344}
+{"time": "2026-11-25T19:17:17", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 100, "train_bpc": 1.79898, "pt_val_bpc": 1.64417, "en_val_bpc": 1.8631}
+{"time": "2026-11-25T19:17:32", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 125, "train_bpc": 1.78512, "pt_val_bpc": 1.64453, "en_val_bpc": 1.86545}
+{"time": "2026-11-25T19:17:48", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 150, "train_bpc": 1.7933, "pt_val_bpc": 1.64523, "en_val_bpc": 1.86638}
+{"time": "2026-11-25T19:18:04", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 175, "train_bpc": 1.8122, "pt_val_bpc": 1.64437, "en_val_bpc": 1.86611}
+{"time": "2026-11-25T19:18:19", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 200, "train_bpc": 1.79447, "pt_val_bpc": 1.64457, "en_val_bpc": 1.86472}
+{"time": "2026-11-25T19:18:35", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 225, "train_bpc": 1.84066, "pt_val_bpc": 1.64628, "en_val_bpc": 1.86992}
+{"time": "2026-11-25T19:18:51", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 250, "train_bpc": 1.79914, "pt_val_bpc": 1.64526, "en_val_bpc": 1.86757}
+{"time": "2026-11-25T19:19:06", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 275, "train_bpc": 1.76356, "pt_val_bpc": 1.64614, "en_val_bpc": 1.86856}
+{"time": "2026-11-25T19:19:22", "label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "step": 300, "train_bpc": 1.7386, "pt_val_bpc": 1.64659, "en_val_bpc": 1.8683}
+{"time": "2026-11-25T19:19:22", "summary": {"label": "M3", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt", "steps": 300}}

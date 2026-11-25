@@ -1,0 +1,163 @@
+{
+ "seed": 0,
+ "ref_en_val_bpc": 2.53384,
+ "pt_tolerance": 0.02,
+ "runs": {
+  "M1_lr5e-05_s0": {
+   "run": "M1_lr5e-05_s0",
+   "method": "M1",
+   "lr": 5e-05,
+   "lam": null,
+   "steps": 1000,
+   "diverged_at": null,
+   "practitioner": {
+    "step": 1000,
+    "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt",
+    "pt_val_bpc": 1.61732,
+    "en_val_bpc": 1.94644
+   },
+   "oracle": null,
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  },
+  "M2_lr5e-05_v2_s0": {
+   "run": "M2_lr5e-05_v2_s0",
+   "method": "M2",
+   "lr": 5e-05,
+   "lam": null,
+   "steps": 21,
+   "diverged_at": 21,
+   "practitioner": {
+    "step": 5,
+    "ckpt": "checkpoints/unlearn/M2_lr5e-05_v2_s0/step_0005.pt",
+    "pt_val_bpc": 1.64357,
+    "en_val_bpc": 1.89336
+   },
+   "oracle": {
+    "step": 15,
+    "ckpt": "checkpoints/unlearn/M2_lr5e-05_v2_s0/step_0015.pt",
+    "pt_val_bpc": 1.98471,
+    "en_val_bpc": 4.14548
+   },
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  },
+  "M3_lr2e-05_lam1_v2_s0": {
+   "run": "M3_lr2e-05_lam1_v2_s0",
+   "method": "M3",
+   "lr": 2e-05,
+   "lam": 1.0,
+   "steps": 53,
+   "diverged_at": 53,
+   "practitioner": {
+    "step": 20,
+    "ckpt": "checkpoints/unlearn/M3_lr2e-05_lam1_v2_s0/step_0020.pt",
+    "pt_val_bpc": 1.65,
+    "en_val_bpc": 1.98893
+   },
+   "oracle": {
+    "step": 35,
+    "ckpt": "checkpoints/unlearn/M3_lr2e-05_lam1_v2_s0/step_0035.pt",
+    "pt_val_bpc": 1.76443,
+    "en_val_bpc": 3.06409
+   },
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  },
+  "M3_lr2e-05_lam2_v2_s0": {
+   "run": "M3_lr2e-05_lam2_v2_s0",
+   "method": "M3",
+   "lr": 2e-05,
+   "lam": 2.0,
+   "steps": 66,
+   "diverged_at": 66,
+   "practitioner": {
+    "step": 30,
+    "ckpt": "checkpoints/unlearn/M3_lr2e-05_lam2_v2_s0/step_0030.pt",
+    "pt_val_bpc": 1.65635,
+    "en_val_bpc": 2.13658
+   },
+   "oracle": {
+    "step": 40,
+    "ckpt": "checkpoints/unlearn/M3_lr2e-05_lam2_v2_s0/step_0040.pt",
+    "pt_val_bpc": 1.70439,
+    "en_val_bpc": 2.7567
+   },
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  },
+  "M3_lr5e-05_lam1_v2_s0": {
+   "run": "M3_lr5e-05_lam1_v2_s0",
+   "method": "M3",
+   "lr": 5e-05,
+   "lam": 1.0,
+   "steps": 26,
+   "diverged_at": 26,
+   "practitioner": {
+    "step": 10,
+    "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam1_v2_s0/step_0010.pt",
+    "pt_val_bpc": 1.65585,
+    "en_val_bpc": 2.01298
+   },
+   "oracle": {
+    "step": 15,
+    "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam1_v2_s0/step_0015.pt",
+    "pt_val_bpc": 1.71959,
+    "en_val_bpc": 2.62523
+   },
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  },
+  "M3_lr5e-05_lam2_v2_s0": {
+   "run": "M3_lr5e-05_lam2_v2_s0",
+   "method": "M3",
+   "lr": 5e-05,
+   "lam": 2.0,
+   "steps": 33,
+   "diverged_at": 33,
+   "practitioner": {
+    "step": 15,
+    "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0015.pt",
+    "pt_val_bpc": 1.66469,
+    "en_val_bpc": 2.21529
+   },
+   "oracle": {
+    "step": 20,
+    "ckpt": "checkpoints/unlearn/M3_lr5e-05_lam2_v2_s0/step_0020.pt",
+    "pt_val_bpc": 1.72393,
+    "en_val_bpc": 2.96601
+   },
+   "theta_b": {
+    "step": 0,
+    "ckpt": "checkpoints/theta_b_s0.pt",
+    "pt_val_bpc": 1.63465,
+    "en_val_bpc": 1.85186
+   }
+  }
+ },
+ "selected": {
+  "M1": "M1_lr5e-05_s0",
+  "M2": "M2_lr5e-05_v2_s0",
+  "M3": "M3_lr5e-05_lam2_v2_s0"
+ }
+}

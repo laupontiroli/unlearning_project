@@ -1,0 +1,164 @@
+{
+ "uniform_bpc": 5.954196310386875,
+ "orders": {
+  "2": {
+   "alpha": 0.1,
+   "alpha_search_pt_val_bpc": {
+    "1.0": 3.5319,
+    "0.1": 3.5319,
+    "0.01": 3.5319,
+    "0.001": 3.5319
+   },
+   "exact_unlearning_equals_ref": true,
+   "models": {
+    "ref": {
+     "pt_val_bpc": 3.5319,
+     "en_val_bpc": 4.2115,
+     "gen_pt_prompts": {
+      "en_leakage": 0.0792,
+      "real_word_rate": 0.3176,
+      "n_words": 8710,
+      "n_en_only": 35,
+      "n_pt_only": 407
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.0897,
+      "real_word_rate": 0.3145,
+      "n_words": 8702,
+      "n_en_only": 42,
+      "n_pt_only": 426
+     }
+    },
+    "bilingual": {
+     "pt_val_bpc": 3.6501,
+     "en_val_bpc": 3.7308,
+     "gen_pt_prompts": {
+      "en_leakage": 0.3439,
+      "real_word_rate": 0.2958,
+      "n_words": 8718,
+      "n_en_only": 108,
+      "n_pt_only": 206
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.3007,
+      "real_word_rate": 0.2884,
+      "n_words": 8742,
+      "n_en_only": 89,
+      "n_pt_only": 207
+     }
+    },
+    "unlearned_exact": {
+     "pt_val_bpc": 3.5319,
+     "en_val_bpc": 4.2115
+    }
+   },
+   "seconds": 6.1
+  },
+  "3": {
+   "alpha": 0.1,
+   "alpha_search_pt_val_bpc": {
+    "1.0": 3.0508,
+    "0.1": 3.0504,
+    "0.01": 3.0512,
+    "0.001": 3.0521
+   },
+   "exact_unlearning_equals_ref": true,
+   "models": {
+    "ref": {
+     "pt_val_bpc": 3.0504,
+     "en_val_bpc": 3.8877,
+     "gen_pt_prompts": {
+      "en_leakage": 0.0181,
+      "real_word_rate": 0.4117,
+      "n_words": 8674,
+      "n_en_only": 29,
+      "n_pt_only": 1573
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.0191,
+      "real_word_rate": 0.4108,
+      "n_words": 8714,
+      "n_en_only": 31,
+      "n_pt_only": 1590
+     }
+    },
+    "bilingual": {
+     "pt_val_bpc": 3.1866,
+     "en_val_bpc": 3.2402,
+     "gen_pt_prompts": {
+      "en_leakage": 0.3106,
+      "real_word_rate": 0.435,
+      "n_words": 9943,
+      "n_en_only": 341,
+      "n_pt_only": 757
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.2946,
+      "real_word_rate": 0.4276,
+      "n_words": 9785,
+      "n_en_only": 297,
+      "n_pt_only": 711
+     }
+    },
+    "unlearned_exact": {
+     "pt_val_bpc": 3.0504,
+     "en_val_bpc": 3.8877
+    }
+   },
+   "seconds": 6.6
+  },
+  "4": {
+   "alpha": 0.1,
+   "alpha_search_pt_val_bpc": {
+    "1.0": 2.575,
+    "0.1": 2.564,
+    "0.01": 2.5676,
+    "0.001": 2.5744
+   },
+   "exact_unlearning_equals_ref": true,
+   "models": {
+    "ref": {
+     "pt_val_bpc": 2.564,
+     "en_val_bpc": 3.6049,
+     "gen_pt_prompts": {
+      "en_leakage": 0.0082,
+      "real_word_rate": 0.5164,
+      "n_words": 9034,
+      "n_en_only": 27,
+      "n_pt_only": 3270
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.0081,
+      "real_word_rate": 0.5108,
+      "n_words": 9015,
+      "n_en_only": 26,
+      "n_pt_only": 3177
+     }
+    },
+    "bilingual": {
+     "pt_val_bpc": 2.7078,
+     "en_val_bpc": 2.726,
+     "gen_pt_prompts": {
+      "en_leakage": 0.4169,
+      "real_word_rate": 0.534,
+      "n_words": 9904,
+      "n_en_only": 1024,
+      "n_pt_only": 1432
+     },
+     "gen_en_prompts": {
+      "en_leakage": 0.44,
+      "real_word_rate": 0.5305,
+      "n_words": 9872,
+      "n_en_only": 1060,
+      "n_pt_only": 1349
+     }
+    },
+    "unlearned_exact": {
+     "pt_val_bpc": 2.564,
+     "en_val_bpc": 3.6049
+    }
+   },
+   "seconds": 61.0
+  }
+ }
+}

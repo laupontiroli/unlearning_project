@@ -1,0 +1,14 @@
+{"time": "2026-11-25T19:09:44", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 0, "pt_val_bpc": 1.61732, "en_val_bpc": 1.94644}
+{"time": "2026-11-25T19:09:59", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 25, "train_bpc": 1.8218, "pt_val_bpc": 1.62925, "en_val_bpc": 1.89602}
+{"time": "2026-11-25T19:10:15", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 50, "train_bpc": 1.81071, "pt_val_bpc": 1.62839, "en_val_bpc": 1.88894}
+{"time": "2026-11-25T19:10:31", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 75, "train_bpc": 1.81091, "pt_val_bpc": 1.63087, "en_val_bpc": 1.88616}
+{"time": "2026-11-25T19:10:46", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 100, "train_bpc": 1.80067, "pt_val_bpc": 1.63107, "en_val_bpc": 1.8835}
+{"time": "2026-11-25T19:11:02", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 125, "train_bpc": 1.78939, "pt_val_bpc": 1.63205, "en_val_bpc": 1.88472}
+{"time": "2026-11-25T19:11:18", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 150, "train_bpc": 1.79387, "pt_val_bpc": 1.63257, "en_val_bpc": 1.8836}
+{"time": "2026-11-25T19:11:33", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 175, "train_bpc": 1.81497, "pt_val_bpc": 1.63209, "en_val_bpc": 1.88165}
+{"time": "2026-11-25T19:11:49", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 200, "train_bpc": 1.79727, "pt_val_bpc": 1.63263, "en_val_bpc": 1.87999}
+{"time": "2026-11-25T19:12:05", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 225, "train_bpc": 1.83984, "pt_val_bpc": 1.63471, "en_val_bpc": 1.88407}
+{"time": "2026-11-25T19:12:20", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 250, "train_bpc": 1.79762, "pt_val_bpc": 1.63379, "en_val_bpc": 1.88112}
+{"time": "2026-11-25T19:12:36", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 275, "train_bpc": 1.76296, "pt_val_bpc": 1.63474, "en_val_bpc": 1.88079}
+{"time": "2026-11-25T19:12:52", "label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "step": 300, "train_bpc": 1.73803, "pt_val_bpc": 1.63595, "en_val_bpc": 1.88034}
+{"time": "2026-11-25T19:12:52", "summary": {"label": "M1", "condition": "fresh1M", "ckpt": "checkpoints/unlearn/M1_lr5e-05_s0/step_1000.pt", "steps": 300}}

@@ -1,0 +1,25 @@
+# PLAN §8, scope D5 + deviation D6: same as configs/unlearn.yaml, with dense evaluation early on.
+# v1 showed GA (M2) and NegGrad+ (M3, lr 2e-5, λ 1) passing "worse than uniform" on English within
+# 21 and 53 steps, before the first eval at step 100, so their trajectories had no points.
+# M1 (smooth, never diverged) is reused from v1 unchanged: same run name, so it is skipped.
+data_dir: data
+init_from: checkpoints/theta_b_s{seed}.pt
+block_size: 512
+en_batch: 32
+pt_batch: 32
+betas: [0.9, 0.95]
+grad_clip: 1.0
+max_steps: 1000
+eval_interval: 100
+dense_until: 100                # eval + weights-only checkpoint every 5 steps for the first 100 steps
+dense_interval: 5
+eval_batches: 100
+eval_batch_size: 16
+guard_margin_nats: 1.0
+grid:
+  - {method: M1, lr: 5.0e-5}                       # v1 run, reused
+  - {method: M2, lr: 5.0e-5, tag: v2}
+  - {method: M3, lr: 2.0e-5, lam: 1.0, tag: v2}
+  - {method: M3, lr: 2.0e-5, lam: 2.0, tag: v2}
+  - {method: M3, lr: 5.0e-5, lam: 1.0, tag: v2}
+  - {method: M3, lr: 5.0e-5, lam: 2.0, tag: v2}

@@ -1,0 +1,7 @@
+# PLAN §5. vocab_size is taken from data/vocab.json at run time.
+block_size: 512
+n_layer: 6
+n_head: 4
+d_model: 256
+dropout: 0.1
+use_sdpa: true
